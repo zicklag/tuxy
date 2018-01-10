@@ -1,0 +1,19 @@
+{
+  "name": "tuxy",
+  "version": "0.1.0",
+  "description": "Miniture commandline tool to proxy TCP and UDP ports to other hosts",
+  "main": "proxy.js",
+  "repository": "https://github.com/zicklag/tuxy",
+  "author": "Zicklag <zicklag@katharostech.com>",
+  "license": "MIT",
+  "private": false,
+  "bin": {
+    "tuxy": "./tuxy.js"
+  },
+  "dependencies": {
+    "logging": "^3.2.0",
+    "tcp-proxy.js": "^1.1.1",
+    "udp-proxy": "^1.0.1",
+    "yargs": "^10.0.3"
+  }
+}

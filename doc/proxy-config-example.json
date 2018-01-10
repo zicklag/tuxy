@@ -1,0 +1,24 @@
+{
+  "proxies": [
+    {
+      "name": "HTTP proxy",
+      "type": "tcp",
+      "in_port": 8080,
+      "target_port": 80,
+      "target_host": "targetHTTPServer"
+    },
+    {
+      "type": "udp",
+      "in_port": 5000,
+      "target_port": 8323,
+      "target_host": "someserver"
+    },
+    {
+      "name": "other proxy",
+      "type": "udp",
+      "in_port": 5001,
+      "target_port": 8323,
+      "target_host": "anotherserver.com"
+    }
+  ]
+}
