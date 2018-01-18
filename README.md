@@ -1,5 +1,7 @@
 # Tuxy
 
+[![NPM version](https://img.shields.io/npm/v/tuxy.svg?style=flat)](https://npmjs.com/package/tuxy) [![NPM downloads](https://img.shields.io/npm/dm/tuxy.svg?style=flat)](https://npmjs.com/package/tuxy)
+
 Tuxy is a super small command line TCP and UDP proxy. It can be installed through yarn or npm.
 
 ```bash
