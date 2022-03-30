@@ -29,7 +29,7 @@ function start_proxy(proxies) {
     }
     else if (proxy.type == 'udp') {
       let server = UDPProxy.createServer({
-        localaddress: '0.0.0.0',
+        localaddress: proxy.in_host || '0.0.0.0',
         localport: proxy.in_port,
         address: proxy.target_host,
         port: proxy.target_port
